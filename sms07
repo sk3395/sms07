@@ -1,0 +1,39 @@
+import os
+os.system("clear")
+import smtplib
+import json
+import os
+try:
+ import requests
+except:
+ os.system("pip install requests")
+ import requests
+import time
+from requests.structures import CaseInsensitiveDict
+                                                       from urllib3.exceptions import InsecureRequestWarning  requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
+#CVALUE
+blue= '\33[94m'                                        lightblue = '\033[94m'
+red = '\033[91m'
+white = '\33[97m'
+yellow = '\33[93m'
+green = '\033[1;32m'
+cyan  = "\033[96m"                                     end = '\033[0m'
+purple="\033[0;35m"
+os.system('clear')
+line=red+" The Tools Varson : 2.0 "
+
+space=" "
+os.system("clear")
+logo=print(cyan+"""
+────────────────████
+──────────────████████
+──────────────████████
+──────────────███████
+────────────────█████
+─────────────████
+────────────██████
+──────────██████████
+─────────███████─████████
+────────███████───███████
+───────███████──────────█████
+───────█████████───────────██──█
